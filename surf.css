@@ -1,0 +1,118 @@
+body{
+    background-image: url(bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-family: cursive;
+}  
+h1{
+      text-align: center;
+      margin-top: 20px;
+      font-size: 60px;
+      color: rgb(193, 206, 14);
+      font-family: cursive;
+    }
+  h2{
+    text-align: center;
+    margin-top: 0px;
+    font-family: cursive;
+    font-size: 40px;
+    color: rgb(206, 14, 30);
+  }
+form.example input[type=text] {
+    padding: 15px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 50%;
+    margin-top:2%;
+    border-radius:30px;
+    margin-left: 25%;
+    background: #f1f1f1;
+    font-family: cursive;
+
+} 
+form.example button {
+    width: 10%;
+    padding: 15px;
+    background-color: #04AA6D;
+    color: white;
+    font-size: 17px;
+    font-family: cursive;
+    border: 1px solid grey;
+    border-left: none; 
+    cursor: pointer;
+    margin-top:10%;
+    border-radius:30px;
+    align-items: center;
+    margin-left: -390px;
+    position: absolute;
+
+}
+form.example button:hover {
+    background: #0b7dda;
+}
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+#mySidenav a {
+    position: absolute; /* Position them relative to the browser window */
+    left: -180px; /* Position them outside of the screen */
+    transition: 0.3s; /* Add transition on hover */
+    padding: 0px; /* 15px padding */
+    text-align: center;
+    font-weight: bold;
+    width: 230px;
+    height: 70px; /* Set a specific width */
+    font-size: 15px; /* Increase font size */
+    color: white; /* White text color */
+}
+  
+#mySidenav a:hover {
+    left: 0; /* On mouse-over, make the elements appear as they should */
+}
+  
+  /* The about link: 20px from the top with a green background */
+#about {
+    top: 20px;
+    background-color: #04AA6D;
+    border: none;
+    color: black;
+}
+a{
+    font-family: cursive;
+}
+#blog {
+    top: 100px;
+    background-color: #2196F3; /* Blue */
+}
+#projects {
+    top: 180px;
+    background-color: #f44336; /* Red */
+}
+#travel {
+    top: 260px;
+    background-color: rgba(80, 35, 163, 0.719);
+    font-size: x-small;
+  }
+#contact {
+    top: 340px;
+    background-color: #555 /* Light Black */
+}
+button{
+    background-color:transparent;
+    border-color: transparent;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+    font-family: cursive;
+    color:whitesmoke;            
+}
+button:hover{
+    color: coral;
+
+}

@@ -1,0 +1,71 @@
+<html>
+    <head>
+        <title>WanderLust</title>
+        <link rel="stylesheet" href="loginpage.css">
+    </head>
+    <body>
+        <div class="one" id="d3">
+            <div class="two" id="d1">
+                <form id="login" action="login.php" method="POST">
+                    <label class="la">
+                        <span class="span1" aria-setsize="40px">LogIn</span>
+                    </label>
+                    <br>
+                    <label>
+                        <span>UserName</span>
+                        <input type="text" name="username" placeholder="UserName" required="" autofocus="onclick"> 
+                    </label>
+                    <br>
+                    <label>
+                        <span>Password</span>
+                        <input type="password" name="pass" placeholder="password" required="" autofocus="onclick">
+                    </label>
+                    <br>
+                    <label>
+                        <span>ForgotPassword?</span>
+                    </label>
+                    <label>
+                        <button class="but1" type="submit">SignIn</button><br>
+                        <button type="button" onclick="transition1()">If not Registered, Click Here to Register</button>
+                    </label>
+                </form>
+            </div>
+            <div class="three" id="d2">
+                <form id="register" action="register.php" method="POST">
+                    <label>
+                        <span class="span1">Register</span>
+                    </label>
+                    <br>
+                    <label>
+                        <span>UserName</span>
+                        <input type="text" name="username1" placeholder="UserName" required="" autofocus="onclick">
+                    </label>
+                    <br>
+                    <label>
+                        <span>Password</span>
+                        <input type="password" name="pass1" placeholder="password" required="" autofocus="onclick">
+                    </label>
+                    <br>
+                    <label>
+                        <span>Re-enter Password</span>
+                        <input type="password" name="retype_password" placeholder="Re-enter password" required="" autofocus="onclick">
+                    </label>
+                    <br>
+                    <label>
+                        <span>EmailId</span>
+                        <input type="email" name="email" placeholder="@gmail.com" required="" autofocus="onclick">
+                    </label>
+                    <br>
+                    <label>
+                        <a><button type="submit" class="but1">SignUp</button></a>
+                        <button type="button" onclick="transition2()">Already Registered?? Click Here to LogIn</button>
+                    </label>
+                </form>  
+            </div>
+        </div>    
+    </body>
+    
+    <script src="login_page.js">
+    </script>
+
+</html>

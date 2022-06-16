@@ -1,0 +1,90 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(praga.jpg);
+    background-size:cover;
+    background-position: center;
+    font-family: cursive;
+}
+.one{
+    position: relative;
+    width: 70%;
+    height: 80%;
+    background-size: cover;
+    background-position: center;
+    top: 0px;
+    overflow: hidden;
+    justify-content: center;
+}
+.two{
+    position: relative;
+    top: 80px;
+    left: 60px ;
+    height: 100%;
+    width: 480;
+    display: block;
+}
+.three{
+    position: relative;
+    top: 40px;
+    left: 500px;
+    height: 100%;
+    width: 480;
+    display: none;
+}
+label{
+    display: block;
+    margin-left: 30px;
+    text-align: left;
+    font-size: 20px;
+}
+input{
+    display: block;
+    font-size: 15px;
+    width: 250px;
+    background: transparent;
+    border-color: whitesmoke;
+    color: whitesmoke;
+    text-align: left;
+}
+.span1{
+    display: block;
+    font-size: 30px;
+    margin-left: 90px;
+    color: rgb(235, 195, 20);
+    font-weight: bold;
+}
+span{
+    display: block;
+    font-size: 15px;
+    color: whitesmoke;
+}
+button{
+    background-color:transparent;
+    font-size: 15px;
+    border-color: transparent;
+    padding: 10px;
+    margin-left: 0px;
+    color: whitesmoke;
+    left: 30px;
+}
+.but1{
+    background-color:transparent;
+    font-size: 15px;
+    padding: 10px;
+    width: 100px;
+    border: 2px solid rgb(235, 195, 20);
+    border-radius: 12px;
+    margin-top: 10px;
+    margin-left: 80px;
+    color:coral;   
+}
+.but1:hover{
+    color: coral;
+    background-color: rgb(55, 55, 148);
+    border-radius: 12px;
+    border:solid coral;
+
+}
+

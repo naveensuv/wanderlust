@@ -1,0 +1,73 @@
+body{
+    background:linear-gradient(to right,#833400,#34013f);
+    background-image: url(bg.jpg);
+    font-size: 12px;
+    font-family: cursive;
+    color:whitesmoke; 
+}
+h1{
+    text-align: center;
+    margin-top: -40px;
+    font-size: 40px;
+}
+h2{
+    margin-left: 700px;
+    margin-top: -10px;
+    font-size: 30px;
+}
+h3{
+    margin-left: 10px;
+    margin-top: -10px;
+    font-size: 15px;
+}
+h4{
+    align-items: center;
+    font-family: cursive;
+}
+a{
+    font-family: cursive;
+}
+div.button{
+    text-align:right ;
+    color:whitesmoke;
+    font-size: 20px;
+    font-family: cursive;
+}
+button{
+    background-color:transparent;
+    font-size: 20px;
+    border-color: transparent;
+    padding: 10px;
+    border-radius: 80px;
+    font-family: cursive;
+    color: rgb(235, 195, 20);
+}
+button:hover{
+    background-color: rgb(55, 55, 148);
+    border-color: coral;
+    border-radius: 20px;
+    color: rgb(233, 232, 229);
+}
+div.about{
+    text-align: left;
+    color: coral;
+}
+
+button.begin{
+    background-color:transparent;
+    font-size: 15px;
+    padding: 15px;
+    width: 200px;
+    border-color: rgb(235, 195, 20);
+    border-radius: 12px;
+    margin-top: -10px;
+    margin-left: 30px;
+    color:coral;            
+}
+.begin:hover{
+    color: coral;
+    background-color: rgb(55, 55, 148);
+    border-radius: 12px;
+    border:3px solid coral;
+
+}

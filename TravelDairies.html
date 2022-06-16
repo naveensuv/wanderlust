@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>travel_diaries</title>
+        <link rel="stylesheet" href="TravelDairies.css">
+    </head>
+<body>
+    <div id="mySidenav" class="sidenav">
+        <a href="profile.php" id="blog"><button>View Profile</button></a>
+        <a href="surf.html" id="projects"><button>Surf</button></a>
+        <a href="TravelDairies.html" id="travel"><button>Travel Dairies</button> </a>
+        <a href="login_page.html" id="contact"><button onlick="logout.php">Logout</button></a>
+      </div>
+      <div id="in">
+        <form action="traveldairies.php" method="POST" enctype="multipart/form-data">
+            <label>
+                <span>Upload Photos</span>
+                <br>
+                <label>
+                <h2>Enter the Place name:</h2>
+                <input type="text" name="place" required="" autofocus="onclick">
+                </label><br>
+                <label>
+                    <h2>Enter the City name:</h2>
+                    <input type="text" name="city" required="" autofocus="onclick">
+                    </label><br><br>
+                <label>
+                <input type="file" name="file" required="" autofocus="onclick"><br>
+                </label>
+                <button class="but1" type="submit">Upload</button>
+            </label>
+        </form>
+      </div>
+</body>
+</html>
